@@ -1,0 +1,78 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.lnb{
+    background-color: #555555;
+}
+a,
+a:active,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    color: inherit;
+    text-decoration: underline;
+}
+li {
+    list-style-type: none;
+}
+          .lnb>ul {display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .lnb li { margin-right:2px; }
+        .lnb a {display: block;
+                width: 150px; height: 40px; text-align: center; line-height: 40px;
+                color: white;
+        }
+        .subMenu { display: none; position: absolute;}
+        .lnb>ul>li:hover .subMenu {display: block; background-color: #000000;}
+        .subMenu a:hover { color: #000; background-color: rgb(255, 255, 255);}
+.main{
+    background-image: url(./clothes-1839935_1280.jpg);
+    height: 300px;
+    text-align: center;
+    padding: 100px;
+}
+.main .h1, .p{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+body {
+    background-color: #252525;
+    font-family: Arial, "Trebuchet MS", sans-serif;
+    margin: 0px;
+    color: #fff;
+}
+header {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    text-align: center;
+    padding: 5px;
+    height: 200px;
+}
+h1 {
+    margin: 0px;
+}
+h1 img{
+    height: 200px;
+    width: 380px;
+}
+.other ul{
+    color: #ccc;
+    float: right;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    margin: 100px auto;
+}
+footer{
+    font-size: small;
+    color: #8d8d8d;
+    margin: 200px auto;
+}
